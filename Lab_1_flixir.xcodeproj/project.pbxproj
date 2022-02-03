@@ -16,6 +16,7 @@
 		400650A427A997A300FCBEF3 /* Lab_1_flixirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400650A327A997A300FCBEF3 /* Lab_1_flixirTests.swift */; };
 		400650AE27A997A300FCBEF3 /* Lab_1_flixirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400650AD27A997A300FCBEF3 /* Lab_1_flixirUITests.swift */; };
 		400650B027A997A300FCBEF3 /* Lab_1_flixirUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400650AF27A997A300FCBEF3 /* Lab_1_flixirUITestsLaunchTests.swift */; };
+		40DFFC6E27AB95DC005E05E1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFFC6D27AB95DC005E05E1 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		400650A927A997A300FCBEF3 /* Lab_1_flixirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab_1_flixirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400650AD27A997A300FCBEF3 /* Lab_1_flixirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_1_flixirUITests.swift; sourceTree = "<group>"; };
 		400650AF27A997A300FCBEF3 /* Lab_1_flixirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_1_flixirUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40DFFC6D27AB95DC005E05E1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4006508E27A997A200FCBEF3 /* SceneDelegate.swift */,
 				4006509027A997A200FCBEF3 /* ViewController.swift */,
 				4006509227A997A200FCBEF3 /* Main.storyboard */,
+				40DFFC6D27AB95DC005E05E1 /* MovieCell.swift */,
 				4006509527A997A200FCBEF3 /* Assets.xcassets */,
 				4006509727A997A200FCBEF3 /* LaunchScreen.storyboard */,
 				4006509A27A997A200FCBEF3 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				4006509127A997A200FCBEF3 /* ViewController.swift in Sources */,
 				4006508D27A997A200FCBEF3 /* AppDelegate.swift in Sources */,
+				40DFFC6E27AB95DC005E05E1 /* MovieCell.swift in Sources */,
 				4006508F27A997A200FCBEF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +456,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MarioOlivares.Lab-1-flixir";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarioOlivares.Lab-1-flixir4200";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MarioOlivares.Lab-1-flixir";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarioOlivares.Lab-1-flixir4200";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
