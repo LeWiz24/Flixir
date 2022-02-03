@@ -1,0 +1,6 @@
+framework module Pods_Lab_1_flixir_Lab_1_flixirUITests {
+  umbrella header "Pods-Lab_1_flixir-Lab_1_flixirUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

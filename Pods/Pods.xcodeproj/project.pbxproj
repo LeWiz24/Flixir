@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017ACEBA386833A0D9C6295E9E162E6C /* Pods-Lab_1_flixir-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5902E35663920EF7BFBA2920C061E7 /* Pods-Lab_1_flixir-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3467FBC02245EE994F786C9B09030878 /* Pods-Lab_1_flixirTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F902E469F46AA6C098C7C539366827 /* Pods-Lab_1_flixirTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF38341DE7CB2A6156AFDD90F8631D7 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF71FEA83D23D3901F404A96E22A53A /* Pods-Lab_1_flixir-Lab_1_flixirUITests-dummy.m */; };
+		400CBD24079F55CB9183363B09903743 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3FE44FDA03C892EA00D862CD2B1027 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A040E412A4FCBC07A15665B253382D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		73A52B5656D6DB293DF8AD6D3DB81B71 /* Pods-Lab_1_flixir-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A873963900920E71F68F53D163D7DB4C /* Pods-Lab_1_flixir-dummy.m */; };
+		AF4E1552EF70AE73F2AED18D8E3D0751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D2B975526BE1D59F35A7F4957E3F3904 /* Pods-Lab_1_flixirTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA10EF6C84AA80A4EFF383BC5F30008 /* Pods-Lab_1_flixirTests-dummy.m */; };
+		F89C26A14613F565C259C426695225DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8F48E95A51E928AB0C1CDDF12931E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2587875D6CE8B29781788FFF11483314;
+			remoteInfo = "Pods-Lab_1_flixir";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DCB59ABE738CC3F26677FA7F344FF8 /* Pods-Lab_1_flixir-Lab_1_flixirUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab_1_flixir-Lab_1_flixirUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0490FAE8BDAB784D6996C4231DA9C78C /* Pods-Lab_1_flixir-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab_1_flixir-Info.plist"; sourceTree = "<group>"; };
+		067D66FD0184B5C166398734EDD54618 /* Pods-Lab_1_flixir */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Lab_1_flixir"; path = Pods_Lab_1_flixir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1726F748A10DFD676A38A1A18AEF03AB /* Pods-Lab_1_flixirTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Lab_1_flixirTests"; path = Pods_Lab_1_flixirTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E91D6D1286EB8129CD7BB77A0953D2E /* Pods-Lab_1_flixirTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab_1_flixirTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23B6045567662AFE6B123A7C8A44ACED /* Pods-Lab_1_flixir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab_1_flixir.debug.xcconfig"; sourceTree = "<group>"; };
+		249934D9744F3C7E26018109BA21D54D /* Pods-Lab_1_flixir-Lab_1_flixirUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lab_1_flixir-Lab_1_flixirUITests.modulemap"; sourceTree = "<group>"; };
+		3B00492E0E90017C48FAC7B99D263CFB /* Pods-Lab_1_flixirTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lab_1_flixirTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EA10EF6C84AA80A4EFF383BC5F30008 /* Pods-Lab_1_flixirTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lab_1_flixirTests-dummy.m"; sourceTree = "<group>"; };
+		56F902E469F46AA6C098C7C539366827 /* Pods-Lab_1_flixirTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lab_1_flixirTests-umbrella.h"; sourceTree = "<group>"; };
+		5C88BF56C083B3A5B759F0C3E1B9C7E4 /* Pods-Lab_1_flixir-Lab_1_flixirUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab_1_flixir-Lab_1_flixirUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AE19F9CB17E0F186F8E1BBD062BFA99 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab_1_flixir-Lab_1_flixirUITests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74E37730A121529449A091AE2FA8FB7A /* Pods-Lab_1_flixirTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab_1_flixirTests-Info.plist"; sourceTree = "<group>"; };
+		87FCCBD5AB626C4F5A0E40D8B5164476 /* Pods-Lab_1_flixir-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab_1_flixir-acknowledgements.plist"; sourceTree = "<group>"; };
+		88DC54C1CE736D99D4F5D56B593D364D /* Pods-Lab_1_flixirTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab_1_flixirTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D5902E35663920EF7BFBA2920C061E7 /* Pods-Lab_1_flixir-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lab_1_flixir-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F16C0217D6A9AA9B70CE7E837DD8C7 /* Pods-Lab_1_flixir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab_1_flixir.release.xcconfig"; sourceTree = "<group>"; };
+		A15660949987669BB1D7CD1D7B0F0587 /* Pods-Lab_1_flixir.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lab_1_flixir.modulemap"; sourceTree = "<group>"; };
+		A873963900920E71F68F53D163D7DB4C /* Pods-Lab_1_flixir-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lab_1_flixir-dummy.m"; sourceTree = "<group>"; };
+		AB46FB81A1878617662D519F2FDF531A /* Pods-Lab_1_flixir-Lab_1_flixirUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lab_1_flixir-Lab_1_flixirUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1BDA2B3805B438624B52E631E72E6EC /* Pods-Lab_1_flixir-Lab_1_flixirUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab_1_flixir-Lab_1_flixirUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B76C3F3BDA8359F57A7438745F0F35A9 /* Pods-Lab_1_flixir-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lab_1_flixir-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEB824B7A608FE89197570492C31B9DC /* Pods-Lab_1_flixirTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab_1_flixirTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C130D55808B684E531529B3BF17EB96C /* Pods-Lab_1_flixir-Lab_1_flixirUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Lab_1_flixir-Lab_1_flixirUITests"; path = Pods_Lab_1_flixir_Lab_1_flixirUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF71FEA83D23D3901F404A96E22A53A /* Pods-Lab_1_flixir-Lab_1_flixirUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lab_1_flixir-Lab_1_flixirUITests-dummy.m"; sourceTree = "<group>"; };
+		D3D78A582F249E2F6D7B02FD908FBDEA /* Pods-Lab_1_flixirTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lab_1_flixirTests.modulemap"; sourceTree = "<group>"; };
+		FC3FE44FDA03C892EA00D862CD2B1027 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lab_1_flixir-Lab_1_flixirUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8A1DA0E831CE06974992DD4352BB697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A040E412A4FCBC07A15665B253382D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C1B15048C0F9E21B0DFC905CAA3D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89C26A14613F565C259C426695225DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94F29216C3521BB53546AB2F3510B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4E1552EF70AE73F2AED18D8E3D0751 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B45EC0C76B97EE65A93C1F9885A6B35 /* Pods-Lab_1_flixirTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D78A582F249E2F6D7B02FD908FBDEA /* Pods-Lab_1_flixirTests.modulemap */,
+				3B00492E0E90017C48FAC7B99D263CFB /* Pods-Lab_1_flixirTests-acknowledgements.markdown */,
+				1E91D6D1286EB8129CD7BB77A0953D2E /* Pods-Lab_1_flixirTests-acknowledgements.plist */,
+				3EA10EF6C84AA80A4EFF383BC5F30008 /* Pods-Lab_1_flixirTests-dummy.m */,
+				74E37730A121529449A091AE2FA8FB7A /* Pods-Lab_1_flixirTests-Info.plist */,
+				56F902E469F46AA6C098C7C539366827 /* Pods-Lab_1_flixirTests-umbrella.h */,
+				BEB824B7A608FE89197570492C31B9DC /* Pods-Lab_1_flixirTests.debug.xcconfig */,
+				88DC54C1CE736D99D4F5D56B593D364D /* Pods-Lab_1_flixirTests.release.xcconfig */,
+			);
+			name = "Pods-Lab_1_flixirTests";
+			path = "Target Support Files/Pods-Lab_1_flixirTests";
+			sourceTree = "<group>";
+		};
+		32CE1CFDA3506480D709204B177EC94D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D294B79C951BC06C9D60977E488DAC /* Pods-Lab_1_flixir */,
+				36EF7DCB9206D8661911D1D5C5D84B2B /* Pods-Lab_1_flixir-Lab_1_flixirUITests */,
+				1B45EC0C76B97EE65A93C1F9885A6B35 /* Pods-Lab_1_flixirTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		36EF7DCB9206D8661911D1D5C5D84B2B /* Pods-Lab_1_flixir-Lab_1_flixirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				249934D9744F3C7E26018109BA21D54D /* Pods-Lab_1_flixir-Lab_1_flixirUITests.modulemap */,
+				AB46FB81A1878617662D519F2FDF531A /* Pods-Lab_1_flixir-Lab_1_flixirUITests-acknowledgements.markdown */,
+				B1BDA2B3805B438624B52E631E72E6EC /* Pods-Lab_1_flixir-Lab_1_flixirUITests-acknowledgements.plist */,
+				CBF71FEA83D23D3901F404A96E22A53A /* Pods-Lab_1_flixir-Lab_1_flixirUITests-dummy.m */,
+				6AE19F9CB17E0F186F8E1BBD062BFA99 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-Info.plist */,
+				FC3FE44FDA03C892EA00D862CD2B1027 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-umbrella.h */,
+				03DCB59ABE738CC3F26677FA7F344FF8 /* Pods-Lab_1_flixir-Lab_1_flixirUITests.debug.xcconfig */,
+				5C88BF56C083B3A5B759F0C3E1B9C7E4 /* Pods-Lab_1_flixir-Lab_1_flixirUITests.release.xcconfig */,
+			);
+			name = "Pods-Lab_1_flixir-Lab_1_flixirUITests";
+			path = "Target Support Files/Pods-Lab_1_flixir-Lab_1_flixirUITests";
+			sourceTree = "<group>";
+		};
+		50FA667293439C011673ACAFF03E6643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067D66FD0184B5C166398734EDD54618 /* Pods-Lab_1_flixir */,
+				C130D55808B684E531529B3BF17EB96C /* Pods-Lab_1_flixir-Lab_1_flixirUITests */,
+				1726F748A10DFD676A38A1A18AEF03AB /* Pods-Lab_1_flixirTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93D294B79C951BC06C9D60977E488DAC /* Pods-Lab_1_flixir */ = {
+			isa = PBXGroup;
+			children = (
+				A15660949987669BB1D7CD1D7B0F0587 /* Pods-Lab_1_flixir.modulemap */,
+				B76C3F3BDA8359F57A7438745F0F35A9 /* Pods-Lab_1_flixir-acknowledgements.markdown */,
+				87FCCBD5AB626C4F5A0E40D8B5164476 /* Pods-Lab_1_flixir-acknowledgements.plist */,
+				A873963900920E71F68F53D163D7DB4C /* Pods-Lab_1_flixir-dummy.m */,
+				0490FAE8BDAB784D6996C4231DA9C78C /* Pods-Lab_1_flixir-Info.plist */,
+				8D5902E35663920EF7BFBA2920C061E7 /* Pods-Lab_1_flixir-umbrella.h */,
+				23B6045567662AFE6B123A7C8A44ACED /* Pods-Lab_1_flixir.debug.xcconfig */,
+				A0F16C0217D6A9AA9B70CE7E837DD8C7 /* Pods-Lab_1_flixir.release.xcconfig */,
+			);
+			name = "Pods-Lab_1_flixir";
+			path = "Target Support Files/Pods-Lab_1_flixir";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				50FA667293439C011673ACAFF03E6643 /* Products */,
+				32CE1CFDA3506480D709204B177EC94D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34043CF56A654FB68CE6EE78F8D4CFD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400CBD24079F55CB9183363B09903743 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8934ED974ED19B44FD2D4C6F5EC1F7CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3467FBC02245EE994F786C9B09030878 /* Pods-Lab_1_flixirTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C279F9F11ABC424FB153C7750241B7C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017ACEBA386833A0D9C6295E9E162E6C /* Pods-Lab_1_flixir-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2587875D6CE8B29781788FFF11483314 /* Pods-Lab_1_flixir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD660B2905524A1305751902BE7EF20 /* Build configuration list for PBXNativeTarget "Pods-Lab_1_flixir" */;
+			buildPhases = (
+				C279F9F11ABC424FB153C7750241B7C4 /* Headers */,
+				8B6B4529114410C61D67C820BA8C313E /* Sources */,
+				A8A1DA0E831CE06974992DD4352BB697 /* Frameworks */,
+				989A31DB6F547DACBE2A2266BA0FC3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Lab_1_flixir";
+			productName = Pods_Lab_1_flixir;
+			productReference = 067D66FD0184B5C166398734EDD54618 /* Pods-Lab_1_flixir */;
+			productType = "com.apple.product-type.framework";
+		};
+		415A821057DCDC2BD81CA8AE71010239 /* Pods-Lab_1_flixir-Lab_1_flixirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B788A697E8F1EF0756D95A99C88A35A9 /* Build configuration list for PBXNativeTarget "Pods-Lab_1_flixir-Lab_1_flixirUITests" */;
+			buildPhases = (
+				34043CF56A654FB68CE6EE78F8D4CFD9 /* Headers */,
+				104E68F5B70209333CC0A6AE7BE3B3EE /* Sources */,
+				C0C1B15048C0F9E21B0DFC905CAA3D81 /* Frameworks */,
+				23D89BE81421D2365EBEFB3064107BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Lab_1_flixir-Lab_1_flixirUITests";
+			productName = Pods_Lab_1_flixir_Lab_1_flixirUITests;
+			productReference = C130D55808B684E531529B3BF17EB96C /* Pods-Lab_1_flixir-Lab_1_flixirUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		490881308CE5F857372A016055FBDBBA /* Pods-Lab_1_flixirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921720D1962AB837EA1C3F82B788B4B8 /* Build configuration list for PBXNativeTarget "Pods-Lab_1_flixirTests" */;
+			buildPhases = (
+				8934ED974ED19B44FD2D4C6F5EC1F7CF /* Headers */,
+				E225BB08F2DA6ACC31317968BA79E0B6 /* Sources */,
+				E94F29216C3521BB53546AB2F3510B11 /* Frameworks */,
+				3AD4D128DE3E29C30264F54632473016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A65D6155256BB99AAE58F29B64A55AA /* PBXTargetDependency */,
+			);
+			name = "Pods-Lab_1_flixirTests";
+			productName = Pods_Lab_1_flixirTests;
+			productReference = 1726F748A10DFD676A38A1A18AEF03AB /* Pods-Lab_1_flixirTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 50FA667293439C011673ACAFF03E6643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2587875D6CE8B29781788FFF11483314 /* Pods-Lab_1_flixir */,
+				415A821057DCDC2BD81CA8AE71010239 /* Pods-Lab_1_flixir-Lab_1_flixirUITests */,
+				490881308CE5F857372A016055FBDBBA /* Pods-Lab_1_flixirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D89BE81421D2365EBEFB3064107BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD4D128DE3E29C30264F54632473016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989A31DB6F547DACBE2A2266BA0FC3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		104E68F5B70209333CC0A6AE7BE3B3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF38341DE7CB2A6156AFDD90F8631D7 /* Pods-Lab_1_flixir-Lab_1_flixirUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6B4529114410C61D67C820BA8C313E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A52B5656D6DB293DF8AD6D3DB81B71 /* Pods-Lab_1_flixir-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E225BB08F2DA6ACC31317968BA79E0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B975526BE1D59F35A7F4957E3F3904 /* Pods-Lab_1_flixirTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A65D6155256BB99AAE58F29B64A55AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Lab_1_flixir";
+			target = 2587875D6CE8B29781788FFF11483314 /* Pods-Lab_1_flixir */;
+			targetProxy = EC8F48E95A51E928AB0C1CDDF12931E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		051EAE91292D13242C064BC93306626D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB824B7A608FE89197570492C31B9DC /* Pods-Lab_1_flixirTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab_1_flixirTests/Pods-Lab_1_flixirTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab_1_flixirTests/Pods-Lab_1_flixirTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23661828AF4C08AE9F4420B5F7BE32AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B6045567662AFE6B123A7C8A44ACED /* Pods-Lab_1_flixir.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab_1_flixir/Pods-Lab_1_flixir-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab_1_flixir/Pods-Lab_1_flixir.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23BCB1514053EEE56EF47BDC43736199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C88BF56C083B3A5B759F0C3E1B9C7E4 /* Pods-Lab_1_flixir-Lab_1_flixirUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab_1_flixir-Lab_1_flixirUITests/Pods-Lab_1_flixir-Lab_1_flixirUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab_1_flixir-Lab_1_flixirUITests/Pods-Lab_1_flixir-Lab_1_flixirUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EB34855D64E0D5AE0E8FA560EDB5D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F16C0217D6A9AA9B70CE7E837DD8C7 /* Pods-Lab_1_flixir.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab_1_flixir/Pods-Lab_1_flixir-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab_1_flixir/Pods-Lab_1_flixir.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CBCCEE2CD93C0DF3EC9B9F6999F18543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DCB59ABE738CC3F26677FA7F344FF8 /* Pods-Lab_1_flixir-Lab_1_flixirUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab_1_flixir-Lab_1_flixirUITests/Pods-Lab_1_flixir-Lab_1_flixirUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab_1_flixir-Lab_1_flixirUITests/Pods-Lab_1_flixir-Lab_1_flixirUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F32ACCE1C3E14B8A7087452C11B665F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DC54C1CE736D99D4F5D56B593D364D /* Pods-Lab_1_flixirTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab_1_flixirTests/Pods-Lab_1_flixirTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab_1_flixirTests/Pods-Lab_1_flixirTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921720D1962AB837EA1C3F82B788B4B8 /* Build configuration list for PBXNativeTarget "Pods-Lab_1_flixirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051EAE91292D13242C064BC93306626D /* Debug */,
+				F32ACCE1C3E14B8A7087452C11B665F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B788A697E8F1EF0756D95A99C88A35A9 /* Build configuration list for PBXNativeTarget "Pods-Lab_1_flixir-Lab_1_flixirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCCEE2CD93C0DF3EC9B9F6999F18543 /* Debug */,
+				23BCB1514053EEE56EF47BDC43736199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD660B2905524A1305751902BE7EF20 /* Build configuration list for PBXNativeTarget "Pods-Lab_1_flixir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23661828AF4C08AE9F4420B5F7BE32AF /* Debug */,
+				3EB34855D64E0D5AE0E8FA560EDB5D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
