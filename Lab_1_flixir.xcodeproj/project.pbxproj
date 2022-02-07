@@ -17,6 +17,7 @@
 		400650A427A997A300FCBEF3 /* Lab_1_flixirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400650A327A997A300FCBEF3 /* Lab_1_flixirTests.swift */; };
 		400650AE27A997A300FCBEF3 /* Lab_1_flixirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400650AD27A997A300FCBEF3 /* Lab_1_flixirUITests.swift */; };
 		400650B027A997A300FCBEF3 /* Lab_1_flixirUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400650AF27A997A300FCBEF3 /* Lab_1_flixirUITestsLaunchTests.swift */; };
+		405F80F727B0A89600AF21DA /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405F80F627B0A89600AF21DA /* MovieDetailsViewController.swift */; };
 		40DFFC6E27AB95DC005E05E1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DFFC6D27AB95DC005E05E1 /* MovieCell.swift */; };
 		40DFFC7127ABA165005E05E1 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 40DFFC7027ABA165005E05E1 /* AlamofireImage */; };
 		B01EAE0B0C1D3BA5DE0C5366 /* Pods_Lab_1_flixir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF08D710275B4F2CFFF2068F /* Pods_Lab_1_flixir.framework */; };
@@ -57,6 +58,7 @@
 		400650A927A997A300FCBEF3 /* Lab_1_flixirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab_1_flixirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400650AD27A997A300FCBEF3 /* Lab_1_flixirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_1_flixirUITests.swift; sourceTree = "<group>"; };
 		400650AF27A997A300FCBEF3 /* Lab_1_flixirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_1_flixirUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		405F80F627B0A89600AF21DA /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		40DFFC6D27AB95DC005E05E1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		4ADE3E2FBCD2BDAA2E1BE25D /* Pods-Lab_1_flixir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab_1_flixir.release.xcconfig"; path = "Target Support Files/Pods-Lab_1_flixir/Pods-Lab_1_flixir.release.xcconfig"; sourceTree = "<group>"; };
 		51EE506C5E11D727A370DED4 /* Pods-Lab_1_flixir-Lab_1_flixirUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab_1_flixir-Lab_1_flixirUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lab_1_flixir-Lab_1_flixirUITests/Pods-Lab_1_flixir-Lab_1_flixirUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		4006508027A997A200FCBEF3 = {
 			isa = PBXGroup;
 			children = (
+				405F80F627B0A89600AF21DA /* MovieDetailsViewController.swift */,
 				4006508B27A997A200FCBEF3 /* Lab_1_flixir */,
 				400650A227A997A200FCBEF3 /* Lab_1_flixirTests */,
 				400650AC27A997A300FCBEF3 /* Lab_1_flixirUITests */,
@@ -159,7 +162,6 @@
 				95614D9518D67D1137928DFD /* Pods-Lab_1_flixirTests.debug.xcconfig */,
 				2708C9A2379BBEA5448B5302 /* Pods-Lab_1_flixirTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -382,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405F80F727B0A89600AF21DA /* MovieDetailsViewController.swift in Sources */,
 				4006509127A997A200FCBEF3 /* ViewController.swift in Sources */,
 				4006508D27A997A200FCBEF3 /* AppDelegate.swift in Sources */,
 				40DFFC6E27AB95DC005E05E1 /* MovieCell.swift in Sources */,
