@@ -10,7 +10,7 @@
 		346A980F158BEC26B26A4C17 /* Pods_Lab_1_flixirTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010B61BA6F41512949959942 /* Pods_Lab_1_flixirTests.framework */; };
 		4006508D27A997A200FCBEF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006508C27A997A200FCBEF3 /* AppDelegate.swift */; };
 		4006508F27A997A200FCBEF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006508E27A997A200FCBEF3 /* SceneDelegate.swift */; };
-		4006509127A997A200FCBEF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006509027A997A200FCBEF3 /* ViewController.swift */; };
+		4006509127A997A200FCBEF3 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006509027A997A200FCBEF3 /* MoviesViewController.swift */; };
 		4006509427A997A200FCBEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4006509227A997A200FCBEF3 /* Main.storyboard */; };
 		4006509627A997A200FCBEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4006509527A997A200FCBEF3 /* Assets.xcassets */; };
 		4006509927A997A200FCBEF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4006509727A997A200FCBEF3 /* LaunchScreen.storyboard */; };
@@ -48,7 +48,7 @@
 		4006508927A997A200FCBEF3 /* Lab_1_flixir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_1_flixir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4006508C27A997A200FCBEF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4006508E27A997A200FCBEF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4006509027A997A200FCBEF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4006509027A997A200FCBEF3 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		4006509327A997A200FCBEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4006509527A997A200FCBEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4006509827A997A200FCBEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,7 +100,6 @@
 		4006508027A997A200FCBEF3 = {
 			isa = PBXGroup;
 			children = (
-				405F80F627B0A89600AF21DA /* MovieDetailsViewController.swift */,
 				4006508B27A997A200FCBEF3 /* Lab_1_flixir */,
 				400650A227A997A200FCBEF3 /* Lab_1_flixirTests */,
 				400650AC27A997A300FCBEF3 /* Lab_1_flixirUITests */,
@@ -125,9 +124,10 @@
 			children = (
 				4006508C27A997A200FCBEF3 /* AppDelegate.swift */,
 				4006508E27A997A200FCBEF3 /* SceneDelegate.swift */,
-				4006509027A997A200FCBEF3 /* ViewController.swift */,
+				4006509027A997A200FCBEF3 /* MoviesViewController.swift */,
 				4006509227A997A200FCBEF3 /* Main.storyboard */,
 				40DFFC6D27AB95DC005E05E1 /* MovieCell.swift */,
+				405F80F627B0A89600AF21DA /* MovieDetailsViewController.swift */,
 				4006509527A997A200FCBEF3 /* Assets.xcassets */,
 				4006509727A997A200FCBEF3 /* LaunchScreen.storyboard */,
 				4006509A27A997A200FCBEF3 /* Info.plist */,
@@ -385,7 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				405F80F727B0A89600AF21DA /* MovieDetailsViewController.swift in Sources */,
-				4006509127A997A200FCBEF3 /* ViewController.swift in Sources */,
+				4006509127A997A200FCBEF3 /* MoviesViewController.swift in Sources */,
 				4006508D27A997A200FCBEF3 /* AppDelegate.swift in Sources */,
 				40DFFC6E27AB95DC005E05E1 /* MovieCell.swift in Sources */,
 				4006508F27A997A200FCBEF3 /* SceneDelegate.swift in Sources */,
